@@ -13,4 +13,4 @@ This project contain doc for aliyuncli usage.
 
 - Get Ubuntu image id
   
-    `ecs DescribeImages --ImageOwnerAlias system --OSType linux --Architecture x86_64 --ImageName ubuntu*  --filter Images.Image[*].ImageName`
+    `aliyuncli ecs DescribeImages --RegionId ap-southeast-1 --ImageOwnerAlias system --OSType linux --Architecture x86_64 --ImageName ubuntu*  --filter Images.Image[*].ImageName`
